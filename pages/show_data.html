@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del Formulario</title>
+</head>
+<body>
+    <h1>Datos del Formulario:</h1>
+    <ul>
+        <li><strong>Nombre:</strong> <?php echo $_POST['firstname']; ?></li>
+        <li><strong>Apellido:</strong> <?php echo $_POST['lastname']; ?></li>
+        <li><strong>Domicilio:</strong> <?php echo $_POST['address']; ?></li>
+        <li><strong>Ciudad:</strong> <?php echo $_POST['city']; ?></li>
+        <li><strong>Código Postal:</strong> <?php echo $_POST['zipcode']; ?></li>
+        <li><strong>Fecha de Nacimiento:</strong> <?php echo $_POST['birthday']; ?></li>
+        <li><strong>Género:</strong> <?php echo $_POST['gender']; ?></li>
+        <li><strong>Estudios:</strong> <?php echo implode(', ', $_POST['estudio']); ?></li>
+    </ul>
+</body>
+</html>
