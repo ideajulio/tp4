@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../asset/media/css/style.css">
     <title>REGISTRO</title>
 </head>
 
 <body>
   <header>
-    <header>
-      <p>    
-            Vida Sana
-          </span>
-        <nav>
-            <ul type="none">
-                <li>
-                  <a href="../index.html">Home </a>&nbsp; 
-                  <a href="./acercade.html">Acerca de </a> &nbsp; 
-                   <a href="./contacto.html">Contacto</a>
-                   <a href="./registro.html">Registro</a>
-                   <a href="./sucursales.html">Sucursales</a>
-                </li>
-            </ul>
-          </nav> 
-        </span>
-      </p>
+    <div class="container-lg">
+      <nav
+        class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://vidasana.org.ar/wp-content/uploads/2019/10/logoWEB.png"  
+              alt="Logo"
+              width="70"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link" href="./acercade.html"> Acerca de </a>
+              <a class="nav-link" href="./contacto.html"> Contacto </a>
+              <a class="nav-link" href="./registro.html"> Registro </a>
+              <a class="nav-link" href="./sucursales.html"> Sucursales </a> 
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
   <section>
     <img src="/recetas/asset/media/img/contacto.jpg" alt="ESTO ESTA ROTO!">
   </section>
 <nav>
-  <h2>FORMULARIO DE REGISTRO</h2>
+  <h4>FORMULARIO DE REGISTRO</h4>
   <form action="show_data.html" target="_blank">
     <label for="firstname">Nombre:</label>
-    <input type="text" name="firstname" placeholder="Ingrese el nombre"><br><br>
+    <input type="text" name="firstname" placeholder="Ingrese el nombre" class="field"><br><br>
 
     <label for="lastname">Apellido:</label>
     <input type="text" name="lastname" placeholder="Ingrese el apellido"><br><br>
 
     <label for="address">Domicilio:</label>
-    <input type="text" name="address" placeholder="Ingrese el domicilio"><br><br>
+    <input type="text" name="address" placeholder="Ingrese el domicilio" class="field"><br><br>
 
     <label for="city">Ciudad:</label>
-    <input type="text" name="city" placeholder="Ingrese la ciudad" value="La Plata"><br><br>
+    <input type="text" name="city" placeholder="Ingrese la ciudad" value="La Plata" class="field"><br><br>
 
     <label for="zipcode">Código postal:</label>
     <input type="text" name="zipcode" placeholder="Ingrese el código postal"><br><br>
@@ -56,7 +89,7 @@
         <input type="radio" name="gender" value="m"> Masculino
         <input type="radio" name="gender" value="O"> Otro
     </p>
-
+    <br>
     <p>Estudios<br>
         <input type="checkbox" name="estudio[]" value="primarios"> Primarios
         <input type="checkbox" name="estudio[]" value="secundarios"> Secundarios
@@ -64,17 +97,17 @@
         <input type="checkbox" name="estudio[]" value="universitarios"> Universitarios
         <input type="checkbox" name="estudio[]" value="otros"> Otros
     </p>
-
+    <br>
     <input type="submit" value="Enviar">
 </form>
 </nav> 
  <br/><br/>
     <br> <br>
     <footer style="background-color:#5dc1b9;text-align: center; font-weight: bold; padding: 15px; font-size: 12px;">
-      <a href="http://facebook.com/username"><img style="margin:5px" src="/tp2/asset/media/img/facebook (1).ico"width="30" height="30" alt="Facebook"></a>
-      <a href="http://instagram.com/"><img style="margin:5px" src="/tp2/asset/media/img/instagram.ico" width="30" height="30" alt="Facebook"></a>
-      <a href="http://flickr.com/"><img style="margin:5px" src="/tp2/asset/media/img/flickr.ico" width="30" height="30" alt="Facebook"></a>
-      <a href="http://whatsapp.com/"><img style="margin:5px" src="/tp2/asset/media/img/whatsapp.ico" width="30" height="30" alt="Facebook"></a>
+      <a href="http://facebook.com/username"><img style="margin:5px" src="/asset/media/img/facebook (1).ico"width="30" height="30" alt="Facebook"></a>
+      <a href="http://instagram.com/"><img style="margin:5px" src="/asset/media/img/instagram.ico" width="30" height="30" alt="Facebook"></a>
+      <a href="http://flickr.com/"><img style="margin:5px" src="/asset/media/img/flickr.ico" width="30" height="30" alt="Facebook"></a>
+      <a href="http://whatsapp.com/"><img style="margin:5px" src="/asset/media/img/whatsapp.ico" width="30" height="30" alt="Facebook"></a>
       <p> 
       Derechos reservados @2023 <p/>
     </footer>

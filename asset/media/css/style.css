@@ -5,20 +5,118 @@ h1{
 header{
     background-color: black;
     color: white;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav{
     background-color: gray;
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 0.3%;
     border-radius: 5px;
+    margin: 0.3%;
+    font-size: 1.5vw;
+    left: 0;
 
 }
 
 footer{
     background-color: black;
     color: white;
+    width: 100%;
     text-align: center;
-    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.imgindex,.imgabout{
+    width: 40%;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.5vw;
+}
+h4{
+    font-size: 1vw;
+}
+.redsoc{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.redsoc a{
+    color: black;
+    font-size: 2vw;
+    margin: 0px 6px;
+}
+.redsoc a:hover{
+    color: #999999;
+}
+textarea {
+    font-size: 1.0vw;
+}
+/* FORMULARIOS */
+label, input{
+    font-size: 1.0vw;
+}
+/*
+input[type=text], input[type=date], input[type=number], input[type=mail], input[type=textArea], select{
+    width: 80%;
+    padding: 14px 20px;
+    margin: 0px 6px;
+    font-size: 2vw;
+}
+*/
+input[type=submit] :hover {
+    background-color: green;
+    color: white;
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    border: 1vw;
+    
+}
+form{
+   /* border-radius: 5px;
+    background-color:#f2f2f2 ;
+    padding: 2%;
+    margin: 1% 20%;*/
+
+    background-color:beige;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 1vw;
+    margin: 0 auto;
+    width: 80%;
+
+}
+.field{
+    input[type=text], input[type=date], input[type=number], input[type=mail], input[type=textArea], select{
+        width: 80%;
+        padding: 14px 20px;
+        margin: 0px 6px;
+        font-size: 1vw;
+    }
+    label{
+        font-size: 10vw;
+        color: red;
+        background-color: rgb(90, 43, 74);
+    }
 }

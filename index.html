@@ -1,63 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="asset/media/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <title>VIDA SANA</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
- 
-            <h1>Vida Sana</uh1>
-           <nav>
-            <ul type="none">
-                <li>
-                  <a href="./index.html">Home </a>&nbsp; 
-                  <a href="./pages/acercade.html">Acerca de </a> &nbsp; 
-                   <a href="./pages/contacto.html">Contacto</a>
-                   <a href="./pages/registro.html">Registro</a>
-                   <a href="./pages/sucursales.html">Sucursales</a>
-                </li>
-            </ul>
-          </nav> 
-        </span>
-      </p>
-  </header>
-     <br/>
+      <div class="container-lg">
+        <nav
+          class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+              src="https://vidasana.org.ar/wp-content/uploads/2019/10/logoWEB.png"  
+                alt="Logo"
+                width="70"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link" href="./pages/acercade.html"> Acerca de </a>
+                <a class="nav-link" href="./pages/contacto.html"> Contacto </a>
+                <a class="nav-link" href="./pages/registro.html"> Registro </a>
+                <a class="nav-link" href="./pages/sucursales.html"> Sucursales </a> 
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+	  
+      <div class="container-lg">
+        <div id="carouselExample" class="carousel slide">
+																		 
+							
+	   
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="asset/media/img/mujer-meditando_pressmaster.jpg" width="1500" height="250" 
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img              
+               src="asset/media/img/habitossanos.jpg"
+               width="1500" height="250" 
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/media/img/sintabaco.jpg"
+                width="1500" height="250" 
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/media/img/temperancia.jpg"
+                width="1500" height="250" 
+                alt="..."
+              />
+            </div>
+          </div>
+          <br/><br/>
+          <p>La llegada del calor siempre viene acompañada del deseo de mejorar la figura y,
+            muchas veces, se recurre a dietas mágicas para poder lograrlo. Sin embargo, si te enfocás en cambiar hábitos,
+            comés sano, te mantenés activo y bajás los niveles de estrés, podrás lograr una figura saludable y disfrutarla durante todo el año.
+            Recordá que los descensos de peso bruscos generan un efecto en tu cuerpo que no siempre es el que buscás.
+            Procurá cambiar de a poco tus hábitos y verás que el tema del peso deja de ser un problema.
+            Acordate de que es un proceso que lleva tiempo, así que no te asustes si un día te das cuenta de que, sin querer, abandonaste el hábito sano y volviste a las rutinas anteriores. Ante dicha situación, no dudes en volver a empezar y aprovechá lo sucedido como un aprendizaje para fortalecer tu hábito sano.
+            Probá alguno de los siguientes hábitos saludables y tratá de mantenerlo sin fallar durante 21 días.
+            Luego de ese período, verás que es más fácil sostenerlo ¡y los resultados comenzarán a ser evidentes!
+        </p>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"> .<<<. </span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"> .>>>. </span>
+          </button>
+        </div>
+													 
+      </div>
+      <br/>
+    </main>
+    <footer id="footer" style="text-align: center;">
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        REGISTER NOW!!!
+      </button>
+      <br/> <br/>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                REGISTRATE , ES GRATIS!
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form method="POST">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email de registracion</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+				
 
+				   
+                <div class="row mb-3"></div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+												 
+		   
+																													
+																	   
+											 
+              </form>
+            </div>
+						 
+		 
+          </div>
+        </div>
+      </div>
 
-     <main>
-      <section class="presentacion">
-        <article class="dieta"></article>
- 
-    <p>La llegada del calor siempre viene acompañada del deseo de mejorar la figura y,
-       muchas veces, se recurre a dietas mágicas para poder lograrlo. Sin embargo, si te enfocás en cambiar hábitos,
-       comés sano, te mantenés activo y bajás los niveles de estrés, podrás lograr una figura saludable y disfrutarla durante todo el año.
-       Recordá que los descensos de peso bruscos generan un efecto en tu cuerpo que no siempre es el que buscás.
-       Procurá cambiar de a poco tus hábitos y verás que el tema del peso deja de ser un problema.
-       Acordate de que es un proceso que lleva tiempo, así que no te asustes si un día te das cuenta de que, sin querer, abandonaste el hábito sano y volviste a las rutinas anteriores. Ante dicha situación, no dudes en volver a empezar y aprovechá lo sucedido como un aprendizaje para fortalecer tu hábito sano.
-       Probá alguno de los siguientes hábitos saludables y tratá de mantenerlo sin fallar durante 21 días.
-       Luego de ese período, verás que es más fácil sostenerlo ¡y los resultados comenzarán a ser evidentes!
-   </p>
-  </article>
-</section>
-<section>
-  <img src="asset/media/img/mujer-meditando_pressmaster.jpg" alt="ESTO ESTA ROTO!"
-      width="800px" height="450">
-</section>
-</main>
-<a href="./pages/piel.html">Beneficios de los alimentos para nuestra piel</a>
-    <br> <br>
-    <footer>
-      <a href="http://facebook.com/username"><img style="margin:5px" src="/tp2/asset/media/img/facebook (1).ico"width="30" height="30" alt="Facebook"></a>
-      <a href="http://instagram.com/"><img style="margin:5px" src="/tp2/asset/media/img/instagram.ico" width="30" height="30" alt="Facebook"></a>
-      <a href="http://flickr.com/"><img style="margin:5px" src="/tp2/asset/media/img/flickr.ico" width="30" height="30" alt="Facebook"></a>
-      <a href="http://whatsapp.com/"><img style="margin:5px" src="/tp2/asset/media/img/whatsapp.ico" width="30" height="30" alt="Facebook"></a>
-      <p style> 
-      Derechos reservados @2023 <p/>
+      <br> <br>
+      
+      <div class="center-div">
+        <a class="redsoc" href="http://facebook.com/username"><img style="margin:5px" src="/asset/media/img/facebook (1).ico"width="30" height="30" alt="Facebook"></a>
+        <a class="redsoc" href="http://instagram.com/"><img style="margin:5px" src="/asset/media/img/instagram.ico" width="30" height="30" alt="instagram"></a>
+        <a class="redsoc" href="http://flickr.com/"><img style="margin:5px" src="/asset/media/img/flickr.ico" width="30" height="30" alt="flickr"></a>
+        <a class="redsoc" href="http://whatsapp.com/"><img style="margin:5px" src="/asset/media/img/whatsapp.ico" width="30" height="30" alt="whatsapp"></a>
+        <p style> 
+        Derechos reservados @2023 <p/>		
+      </div>  				
     </footer>
+
   </body>
 </html>
